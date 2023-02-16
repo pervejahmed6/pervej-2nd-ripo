@@ -1,0 +1,246 @@
+*{
+    margin: 0;
+}
+.head{
+    background: rgba(255, 144, 14, 0.1);
+}
+.header-title{
+    color: #131313;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 180px;
+    
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    margin-left: 40px;
+    color: #424242;
+}
+.banner{
+    text-align: center;
+    margin-left: 480px;
+    margin-right: 480px;
+    gap: 5px;
+}
+.banner-title{
+    font-weight: 700px;
+    font-size: 64px;
+    margin-top: 26px;
+    color: #131313;
+}
+.banner-description{
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 22px;
+    color: #727272;
+}
+.btn-primary{
+    color: #FFFFFF;
+    background-color: #FF900E;
+    border-radius: 5px;
+    border: #FF900E;
+    width: 100px;
+    height: 44px;
+    margin-top: 22px;
+}
+.banner-2 img{
+    width: 1000px;
+    height: 500px;
+    margin-left: 240px;
+    margin-top: 28px;
+    margin-bottom: 20px;
+}
+.main{
+    display: flex;
+    margin-right: 400px;
+    align-items: center;
+    
+}
+.main-pic{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 25px;
+    margin-left: 240px;
+    
+}
+.main-pic img{
+    width: 200px;
+    height: 200px;
+    border-radius: 8px;
+    margin-right: 10px;
+}
+.main-title{
+    margin-left: 90px;
+    font-weight: 500;
+    font-size: 45px;
+}
+.main-title span{
+    color: #FF900E;
+    font-weight: 700;
+    font-size: 45px
+}
+.main-description{
+    color: #727272;
+    margin-left: 90px;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 20px;
+}
+.main-about .btn-primary{
+    margin-left: 90px;
+}
+.About{
+    margin-top: 80px;
+    display: flex;
+    
+}
+
+.about-title{
+    color: #131313;
+    font-weight: 700;
+    font-size: 45px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.about-description{
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
+    margin-left: 200px;
+    margin-right: 100px;
+    margin-top: 20px;
+}
+.about-sub-title{
+    color: #131313;
+    font-weight: 600;
+    font-size: 20px;
+    margin-left: 250px;
+    margin-top: 30px;
+}
+.about-sub-des{
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
+    margin-left: 250px;
+    margin-right: 130px;
+}
+
+.about-pic img{
+    width: 420px;
+    height: 600px;
+    border-radius: 8px;
+    
+}
+.btn-secondary{
+    font-weight: 700px;
+    font-size: 45px;
+    
+    width:  200px;
+    height: 100px;
+    background: #FF900E;
+    border-radius: 8px;
+    color: #FFFFFF;
+    border: #FF900E;
+    margin-left: 600px;
+}
+.btn-secondary span{
+    font-weight: 500;
+    font-size: 15px;
+    color: #FFFFFF;
+   
+}
+.Some{
+    margin-top: 80px;
+    margin-left: 220px;
+}
+.some-title{
+    color: #131313;
+}
+.some-des{
+    color: #727272;
+    margin-right: 800px;
+}
+.icon{
+    display: flex;
+    margin-top: 80px;
+    margin-left: 260px;
+    gap: 80px;
+}
+.icon .Icon{
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    width: 150px;
+    height: 150px;
+}
+.Icon:hover{
+    border: 5px solid #FF900E;
+    border-radius: 15px;
+    width: 300px;
+    height: 200px;
+    transform: rotate(360deg);
+    transition: transform 2s ease-in;
+}
+
+.icon img{
+    width: 45.22px;
+    height: 45.22px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.icon-title{
+    text-align: center;
+}
+.icon-des{
+    text-align: center;
+}
+.sponsor{
+    margin-top: 100px;
+    text-align: center;
+}
+.sponsor-title{
+    color: #131313;
+    font-weight: 700;
+    font-size: 45px; 
+}.sponsor-des{
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 30px;
+    margin-left: 500px;
+    margin-right: 525px;
+}
+.sponsor-pic{
+    display: flex;
+    margin-top: 50px;
+    gap: 80px;
+    margin-left: 260px;
+}
+.sponsor-pic img{
+    width: 120px;
+    height: 40px;
+}
+.footer{
+    border: 1px solid FFF4E7;
+    background: #FFF4E7;
+    border-radius: 8px;
+    width: 1100px;
+    height: 50px;
+    margin-top: 100px;
+    margin-left: 200px;
+    margin-bottom: 100px;
+}
+.footer-title{
+    color: #424242;
+    font-family: 'Work Sans';
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+}
